@@ -1,0 +1,1 @@
+This file's sole purpose to is make sure the v0/log directory is included in version control and doesn't have to be created by hand after initialing the application

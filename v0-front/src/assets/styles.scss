@@ -1,0 +1,57 @@
+@import '~bulma';
+
+/* Custom styles below push mobile nav behavior down to below tablet size from below desktop size and change layout/styles of mobile menu display */
+.navbar {
+  display:block;
+}
+.navbar-menu {
+  box-shadow:none;
+}
+.navbar {
+  &.loggedout-navbar {
+    display:block;
+    // margin-right:0;
+    .navbar-brand {
+      margin-right:0;
+      display:block;
+      .navbar-item {
+        display:block;
+      }
+    }
+  }
+
+}
+@include tablet {
+  .navbar {
+    display: flex;
+  }
+  .navbar-menu {
+    flex-grow:1;
+    flex-shrink:0;
+    align-items:stretch;
+    display:flex;
+    &.is-active {
+      display:flex;
+    }
+  }
+  .navbar-start {
+    justify-content: flex-start;
+    margin-right: auto;
+    align-items: stretch;
+    display: flex;
+  }
+  .navbar-end {
+    justify-content: flex-end;
+    align-items: stretch;
+    display: flex;
+  }
+  .navbar-items {
+    align-items: center;
+    display: flex;
+  }
+}
+@include desktop {
+  .navbar-menu {
+    background:none;
+  }
+}
