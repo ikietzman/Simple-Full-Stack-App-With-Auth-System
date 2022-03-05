@@ -10,17 +10,14 @@ The front end is built using Vue, with the Bulma CSS library. You can easily swi
 
 Once installed and initialized, the full project should look something like this:
 
+```
 -/instance
-
 -/v0
-
 -/v0-front
-
 -/venv
-
 -.gitignore
-
 -README.md
+```
 
 ## Get started:
 
