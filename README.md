@@ -9,11 +9,17 @@ The back end (./v0) is built in Python 3, running Flask, and connects to a local
 The front end is built using Vue, with the Bulma CSS library. You can easily switch in a different CSS library, or add custom styles by starting at ./v0-front/src/assets/styles.scss.
 
 Once installed and initialized, the full project should look something like this:
+
 -/instance
+
 -/v0
+
 -/v0-front
+
 -/venv
+
 -.gitignore
+
 -README.md
 
 ## Get started:
