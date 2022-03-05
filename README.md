@@ -30,12 +30,14 @@ cd app_name
 
 python3 -m venv venv
 
+. venv/bin/activate
+
 pip install flask flask_cors
 
 flask init-db
 
-export FLASK_APP=v00
-export FLASK_ENV=development0
+export FLASK_APP=v0
+export FLASK_ENV=development
 
 flask run
 ```
